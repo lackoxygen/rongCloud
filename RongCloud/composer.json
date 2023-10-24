@@ -1,0 +1,21 @@
+{
+    "name": "lackoxygen/rongcloud",
+    "description": "Rong Cloud Server SDK in PHP.",
+    "keywords": ["rongcloud", "rong cloud", "rlcoud", "sdk"],
+    "homepage": "https://github.com/lackoxygen/rongCloud",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rong Cloud",
+            "email": "support@rongcloud.cn",
+            "homepage": "https://github.com/lackoxygen/rongCloud"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {"RongCloud\\": "RongCloud"}
+    }
+}
